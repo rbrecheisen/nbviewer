@@ -67,4 +67,4 @@ RUN invoke less
 # root up until now!
 USER nobody
 
-CMD ["python3", "-m", "nbviewer", "--port=8080"]
+CMD ["python3", "-m", "nbviewer", "--port=8080", "--localfiles=/srv/nbviewer/notebooks"]
